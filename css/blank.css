@@ -59,7 +59,7 @@ main a:hover { background: rgba(71, 144, 256, 0.13); }
 main ul { list-style-type: none; max-width: 850px; margin: 20px; }
 main b { color: #121212; font-weight: bold; }
 main h3 { line-height: 1; font-size: 32px; padding-left: 20px; max-width: 850px; }
-main h4 { line-height: 1; font-size: 24px;  padding-left: 20px; max-width: 850px; }
+main h4 { line-height: 1; font-size: 24px; padding-left: 20px; max-width: 850px; }
 
 figure { margin: 10px auto; max-width: 100%; text-align: center; }
 figcaption { padding: 5px 20px; text-transform: uppercase; font-size: 1rem; text-align: center; }
@@ -75,10 +75,12 @@ figure pre { font-family: monospace; font-size: 12px; overflow-x: auto;  max-wid
 .heart { color: red; }
 li { list-style-position: inside; }
 
+
 @media(min-width: 550px) {
     nav { padding: 10px 0 10px 0; display: flex; justify-content: center; line-height: 1; }
     nav a { font-size: 18px; min-width: initial; }
     header h1 { font-size: 30px; }
+    main h3 { font-size: 30px; margin: 30px auto; }
     figure { max-width: 100%; }
     figure code { max-width: 100%; font-size: 12px; }
     figure img { max-width: 100%; border: 0px solid #E8E8E8; }
