@@ -1,5 +1,5 @@
 header { padding-top: 80px; }
-main   { padding-top: 80px; }
 h1 { color: white; }
+nav { display: block; line-height: 3; }
 .dvu   { margin-bottom:-12px; height:36px; padding-right: 10px; content:url(djvu.png);  }
 .pdf   { margin-bottom:-12px; height:36px; padding-right: 10px; content:url(pdf.jpg);  }
