@@ -1,0 +1,84 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="Maxim Sokhatsky" />
+    <title>SC: Sokhatsky Commander</title>
+    <link rel="stylesheet" href="https://n2o.dev/blank.css" />
+    <link rel="stylesheet" href="https://tonpa.guru/journal.css" />
+</head>
+<body>
+<main>
+    <section>
+
+        <h3>SC: Sokhatsky Commander</h3>
+
+        <h4>Анотація</h4>
+
+        <center><a href="https://github.com/BitEdits"><img src="img/BE.png" width=150 lt="BE"></a></center>
+        <br>
+
+        <p>Є цілий клас файлових менеджеріву, серед яких Norton Commander, Volkov Commander, Deco, Dos Navigator, Total Commander,
+           Такі програми зручно використовати для навігації по файловій системі і впорядкуванню бібліотек.
+           Фактично це Volkov Commander, але </p>
+
+        <p>— Без залежностей, потрібно тільки C99/POSIX які є стандартом<br>
+           — Без використання ncurses та S-Lang, тільки termios<br>
+           — Модальність редагування HEX і редактор <a href="https://sokhatsky.art/bineditor/">BE: Binary Editor</a><br>
+           — Історія команд<br>
+        </p>
+
+        <h4>Параметри</h4>
+
+        <p>Цей редактор можна також використовувати у якості вправи яка може замінити
+           написання консольних ігор типу Тетріса, Ксонікса, Арканоїда. Головним чином
+           це сцена яка обмежена адресним простором файлу, а дійство вібувається
+           у вікні терміналу, два рядки якого виділені під титул та статуси. Так як
+           сучасні процесори використовують 64-бітний обʼєктний код, то мінімальну ширину терміналу
+           для комфорного використання визначено у 120 колонок, це 24-байти (192-біти) на рядок.</p>
+
+        <figure><code>$ ./sc
+        </code></figure>
+
+        <h4>Модальність історії команд</h4>
+
+        <p>У шістнадцятковій модальності дозволяється робити PAGE UP та PAGE DOWN,
+           а також робити навігацію в межах вікна.</p>
+
+        <figure><img src="img/3.png"></figure>
+
+        <h4>Модальність меню</h4>
+
+        <p>У модальності дизасемблера можна здійснювати навігацію лише в межах вікна. При поверненні в шістнадцятковий режим,
+        зберігається позиція курсору яка була там до переходу в режим дизасемблера.</p>
+
+        <figure><img src="img/2.png"></figure>
+
+        <h4>Модальність вікон</h4>
+
+        <p>У модальності дизасемблера можна здійснювати навігацію лише в межах вікна. При поверненні в шістнадцятковий режим,
+        зберігається позиція курсору яка була там до переходу в режим дизасемблера.</p>
+
+        <figure><img src="img/1.png"></figure>
+
+
+      <h4>Код</h4>
+
+      <p>Репозиторій проекту <a href="https://github.com/BitEdits/sc">github.com/BitEdits/sc</a>
+         опубліковано під <a href="https://5ht.co/license">DHARMA</a> ліценцією, яка
+         забороняє використання Sokhatsky Commander для росіян та всіх хто з ними
+         повʼязаний. Для всіх інших це не відрізняється від ISC ліцензії.</P>
+
+   <br><center>&dot;</center>
+
+   <div id="utterances" class="utterances" > </div>
+   <script src="https://utteranc.es/client.js" repo="5HT/tonpa.guru"
+           issue-number="26" theme="github-light" crossorigin="anonymous" async> </script>
+
+</section>
+</main>
+<footer>Максим Сохацький, Synrc Research</footer>
+</body>
+</html>
