@@ -1,4 +1,0 @@
-DEVELOPER
-=========
-
-Groupoid Infinity IDE.
